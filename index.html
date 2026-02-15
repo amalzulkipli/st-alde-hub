@@ -72,52 +72,45 @@
     </div>
 
     <!-- Cards -->
-    <div class="flex-grow px-6 space-y-4 pb-20">
+    <div class="flex-grow px-6 space-y-3 pb-20">
 
       <!-- Staff Timetable (active) -->
       <a href="/timetable" class="block relative group">
         <div class="absolute -inset-0.5 bg-blue-100 rounded-2xl blur opacity-0 group-hover:opacity-100 transition duration-200"></div>
-        <div class="relative bg-white border border-blue-100 border-l-4 border-l-primary rounded-2xl p-6 shadow-soft active:scale-[0.98] transition-all cursor-pointer">
-          <div>
-            <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mb-3">
-              <i class="ph-bold ph-calendar-dots text-primary text-2xl"></i>
-            </div>
-            <h2 class="text-xl font-bold text-slate-800 font-display">Staff Timetable</h2>
-            <p class="text-slate-500 text-sm mt-1">View and manage staff schedules</p>
+        <div class="relative bg-white border border-blue-100 border-l-4 border-l-primary rounded-2xl px-5 py-4 shadow-soft active:scale-[0.98] transition-all cursor-pointer flex items-center gap-4">
+          <div class="w-11 h-11 rounded-xl bg-blue-50 flex items-center justify-center shrink-0">
+            <i class="ph-bold ph-calendar-dots text-primary text-xl"></i>
           </div>
-          <div class="mt-6 flex items-center text-primary font-semibold text-sm">
-            <span>Open Dashboard</span>
-            <i class="ph-bold ph-arrow-right ml-1 text-sm"></i>
+          <div class="flex-grow min-w-0">
+            <h2 class="text-[15px] font-bold text-slate-800 font-display leading-tight">Staff Timetable</h2>
+            <p class="text-slate-400 text-xs mt-0.5">View and manage schedules</p>
           </div>
+          <i class="ph-bold ph-caret-right text-slate-300 text-sm group-hover:text-primary group-hover:translate-x-0.5 transition-all shrink-0"></i>
         </div>
       </a>
 
       <!-- Inventory (disabled) -->
-      <div class="bg-white border border-slate-100 rounded-2xl p-6 shadow-card opacity-90">
-        <div>
-          <div class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center mb-3">
-            <i class="ph-bold ph-package text-slate-400 text-2xl"></i>
-          </div>
-          <h2 class="text-xl font-bold text-slate-400 font-display">Inventory</h2>
-          <p class="text-slate-400 text-sm mt-1">Stock management</p>
+      <div class="bg-white border border-slate-100 rounded-2xl px-5 py-4 shadow-card opacity-80 flex items-center gap-4">
+        <div class="w-11 h-11 rounded-xl bg-slate-50 flex items-center justify-center shrink-0">
+          <i class="ph-bold ph-package text-slate-300 text-xl"></i>
         </div>
-        <div class="mt-6">
-          <span class="inline-block px-3 py-1 bg-slate-100 text-slate-400 text-[10px] font-bold tracking-widest rounded-full uppercase border border-slate-200">Coming Soon</span>
+        <div class="flex-grow min-w-0">
+          <h2 class="text-[15px] font-bold text-slate-400 font-display leading-tight">Inventory</h2>
+          <p class="text-slate-300 text-xs mt-0.5">Stock management</p>
         </div>
+        <span class="px-2.5 py-0.5 bg-slate-50 text-slate-400 text-[9px] font-bold tracking-widest rounded-full uppercase border border-slate-200 shrink-0">Soon</span>
       </div>
 
       <!-- POS (disabled) -->
-      <div class="bg-white border border-slate-100 rounded-2xl p-6 shadow-card opacity-90">
-        <div>
-          <div class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center mb-3">
-            <i class="ph-bold ph-receipt text-slate-400 text-2xl"></i>
-          </div>
-          <h2 class="text-xl font-bold text-slate-400 font-display">POS</h2>
-          <p class="text-slate-400 text-sm mt-1">Point of sale system</p>
+      <div class="bg-white border border-slate-100 rounded-2xl px-5 py-4 shadow-card opacity-80 flex items-center gap-4">
+        <div class="w-11 h-11 rounded-xl bg-slate-50 flex items-center justify-center shrink-0">
+          <i class="ph-bold ph-receipt text-slate-300 text-xl"></i>
         </div>
-        <div class="mt-6">
-          <span class="inline-block px-3 py-1 bg-slate-100 text-slate-400 text-[10px] font-bold tracking-widest rounded-full uppercase border border-slate-200">Coming Soon</span>
+        <div class="flex-grow min-w-0">
+          <h2 class="text-[15px] font-bold text-slate-400 font-display leading-tight">POS</h2>
+          <p class="text-slate-300 text-xs mt-0.5">Point of sale system</p>
         </div>
+        <span class="px-2.5 py-0.5 bg-slate-50 text-slate-400 text-[9px] font-bold tracking-widest rounded-full uppercase border border-slate-200 shrink-0">Soon</span>
       </div>
 
     </div>
