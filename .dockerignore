@@ -1,0 +1,6 @@
+Dockerfile
+.dockerignore
+CLAUDE.md
+docs/
+.git/
+.gitignore
